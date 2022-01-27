@@ -1,5 +1,5 @@
 # My personal portfolio
-It is a React.js SPA of a fictitious mini store. The project consists of different views and pages which are accessed using React Router routes.
+It is a portfolio made in HTML5, CSS3 and JavaScript.
 
 ## View project :rocket:
 ### [Deploy](https://matiaschiodo.netlify.app/)
