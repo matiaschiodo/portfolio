@@ -371,11 +371,14 @@ img {
     color: #FFF;
     padding: 1rem;
     border-radius: .5rem;
+    font-family: var(--normal-font);
     font-weight: var(--font-medium);
+    border: none;
 }
 
 .button:hover {
     background-color: var(--first-color-alt);
+    cursor: pointer;
 }
 
 .button__icon {

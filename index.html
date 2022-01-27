@@ -132,7 +132,7 @@
             </section>
 
             <!--==================== ABOUT ====================-->
-            <section class="about section container" id="about" data-aos="fade-right">
+            <section class="about section container" id="about" data-aos="fade-up">
                 <h2 class="section__title">About me</h2>
                 <span class="section__subtitle">My introduction</span>
 
@@ -169,7 +169,7 @@
             </section>
 
             <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills" data-aos="fade-left">
+            <section class="skills section" id="skills" data-aos="fade-up">
                 <h2 class="section__title">Skills</h2>
                 <span class="section__subtitle">My technical level</span>
 
@@ -287,7 +287,7 @@
             </section>
 
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section" id="qualifications" data-aos="fade-right">
+            <section class="qualification section" id="qualifications" data-aos="fade-up">
                 <h2 class="section__title">Qualifications</h2>
                 <span class="section__subtitle">My personal journey</span>
 
@@ -382,7 +382,7 @@
             </section>
 
             <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio" data-aos="fade-left">
+            <section class="portfolio section" id="portfolio" data-aos="fade-up">
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent work</span>
 
@@ -440,7 +440,7 @@
             </section>
 
             <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact" data-aos="fade-right">
+            <section class="contact section" id="contact" data-aos="fade-up">
                 <h2 class="section__title">Contact Me</h2>
                 <span class="section__subtitle">Get in touch</span>
 
@@ -474,26 +474,27 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form action="https://formspree.io/f/mdobeney" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <label for="name" class="contact__label">Name</label>
+                                <input type="text" name="name" id="name" class="contact__input" required>
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <label for="email" class="contact__label">Email</label>
+                                <input type="email" name="email" id="email" class="contact__input" required>
                             </div>
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <label for="message" class="contact__label">Message</label>
+                            <textarea name="message" id="message" cols="0" rows="7" class="contact__input" required></textarea>
                         </div>
+                        <!-- <input type="hidden" name="_next" value="#home"> -->
                         <div class="">
-                            <a href="#" class="button button--flex">
+                            <button type="submit" class="button button--flex">
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
-                            </a>
+                            </button>
                         </div>
                     </form>
                 </div>
