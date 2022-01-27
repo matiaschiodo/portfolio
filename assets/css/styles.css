@@ -311,6 +311,10 @@ img {
     color: var(--first-color-alt);
 }
 
+.home__img {
+    justify-self: end;
+}
+
 .home__blob {
     width: 200px;
     fill: var(--first-color);
@@ -718,6 +722,10 @@ textarea {
     color: var(--first-color-lighter);
 }
 
+.footer__socials {
+    margin-top: var(--mb-3);
+}
+
 .footer__social {
     font-size: 1.25rem;
     margin-right: var(--mb-1-5);
@@ -877,6 +885,9 @@ textarea {
     }
     .change-theme {
         margin: 0;
+    }
+    .home {
+        height: 100vh;
     }
     .home__container {
         row-gap: 5rem;
