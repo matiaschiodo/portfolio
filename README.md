@@ -1,5 +1,6 @@
 # My personal portfolio
 It is a portfolio made in HTML5, CSS3 and JavaScript.
+With a form managed by Formspree
 
 ## View project :rocket:
 ### [Deploy](https://matiaschiodo.netlify.app/)
@@ -13,7 +14,7 @@ It is a portfolio made in HTML5, CSS3 and JavaScript.
 The project is open to changes or suggestions. Constructive criticism of any kind is welcome.
 
 ## Installation :electric_plug:
-Clone yardsales:
+Clone this repository:
 ```
 git clone https://github.com/matiaschiodo/portfolio.git
  ```
