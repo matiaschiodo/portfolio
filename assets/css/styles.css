@@ -229,7 +229,7 @@ img {
         width: 100%;
         background-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
-        box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
     }
@@ -282,7 +282,7 @@ img {
 
 /* Change background header */
 .scroll-header {
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .3);
 }
 
 /*==================== HOME ====================*/
@@ -886,15 +886,10 @@ textarea {
     .change-theme {
         margin: 0;
     }
-    .home {
+    .home__container {
         height: 100vh;
-    }
-    .home__container {
         row-gap: 5rem;
-    }
-    .home__container {
-        padding-top: 5.5rem;
-    column-gap: 2rem;
+        column-gap: 2rem;
     }
     .home__blob {
         width: 270px;
